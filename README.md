@@ -1,6 +1,7 @@
 # API testing with Cypress
 
-Hello, and welcome to my Github page! This repo was created for my Automation Guild'24 Talk: 
+Hello, and welcome to my Github page! 
+This is the repo for my Automation Guild'24 Talk: 
 **Accelerating API Testing: A Practical Guide to Automation with Cypress**
 
 It contains Cypress API tests that are based on the swagger documentation for the demo site called Petstore: https://petstore.swagger.io/
