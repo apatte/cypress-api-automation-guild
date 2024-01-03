@@ -21,7 +21,7 @@ To get started:
 
 # About the Author
 
-Check out the recording of my talk for the Applitools Future of Testing Event, where I leverage ChatGPT to generate and debug these API tests: 
+Check out the recording of my talk for the Applitools Future of Testing Event, where I leverage ChatGPT to generate and debug API tests: 
 https://applitools.com/event/fot23-leveraging-chatgpt-with-cypress-for-api-testing-hands-on-techniques/
 
 
