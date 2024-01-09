@@ -26,3 +26,9 @@
 // cy.helper.randomID = () => {
 //     return Math.random().toString(36).substring(2);
 //   };
+
+Cypress.Commands.add("deletePetAPI", (ID) => {
+  cy.request("DELETE", `/pet/${ID}`).then((response) => {
+    expect(response.status).to.equal(200);
+  });
+});
