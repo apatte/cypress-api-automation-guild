@@ -41,7 +41,7 @@ describe("Pet API Tests", () => {
     });
     cy.request({
       method: "GET",
-      url: "/pet/123456",
+      url: "/pet/" + newPet.id,
       failOnStatusCode: false,
     }).then((response) => {
       expect(response.status).to.eq(404);
